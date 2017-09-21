@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <ul class="messages"></ul>
+  <script type="text/javascript">
+    let html = "";
+    for (var i = 0 ; i < 20 ; i ++) {
+      html += `<li class="message">Message ${i}</li>`;
+    }
+    document.getElementsByTagName("ul")[0].innerHTML = html;
+  </script>
+</body>
+</html>

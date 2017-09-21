@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+
+.messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.message {
+  font-size: 13px;
+  padding: 10px 40px;
+  margin: 5px 0;
+  background: #DEF;
+}
+
+.warning {
+  background: #FE0;
+  color: #333;
+}
+
+.error {
+  background: tomato;
+  color: white;
+}

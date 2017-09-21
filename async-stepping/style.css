@@ -1,0 +1,11 @@
+body {
+  --my-color: #333;
+}
+
+div {
+  color: var(--my-color);
+}
+
+.red {
+  --my-color: #FF0000;
+}
